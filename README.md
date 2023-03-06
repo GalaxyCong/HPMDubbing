@@ -19,11 +19,11 @@ In our work, we release the [V2C-MovieAnimation2.0](https://pan.baidu.com/s/1wbm
 
 # Data Preparation
 
-## For voice preprocessing (mel-spectrograms, pitch, and energy), we first use the  MFA to obtain the alignments between the duration and the phoneme sequences.
+## For voice preprocessing (mel-spectrograms, pitch, and energy), we first use the  MFA to obtain the alignments between the duration and the phoneme sequences. Alternatively, you can skip the below-complicated step, and use our extracted features, directly.
 
-### Download the official MFA package and run
+### Download the official [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/) (MFA) package and run
 ```
-./montreal-forced-aligner/bin/mfa_align /data/conggaoxiang/V2C_Data/wav16 /data/conggaoxiang/Style_speech/StyleSpeech/lexicon/librispeech-lexicon.txt  english /data/conggaoxiang/V2C/V2C_Code/example_V2C16/TextGrid -j
+./montreal-forced-aligner/bin/mfa_align /data/conggaoxiang/HPMDubbing/V2C_Data/wav16 /data/conggaoxiang/HPMDubbing/lexicon/librispeech-lexicon.txt  english /data/conggaoxiang/HPMDubbing/V2C_Code/example_V2C16/TextGrid -j
 ```
 ### then, please run the below script to save the .npy files of mel-spectrograms, pitch, and energy from two datasets, respectively.
 ```
@@ -32,6 +32,7 @@ python V2C_preprocess.py config/MovieAnimation/preprocess.yaml
 ```
 python Chem_preprocess.py config/MovieAnimation/preprocess.yaml
 ```
+## For hierarchical visual feature preprocessing (lip, face, and scenes), We detect and crop the face from the video frames using $S^3FD$ [face detection model](https://github.com/yxlijun/S3FD.pytorch). Then, we align faces to generate 68 landmarks and bounding boxes (./landmarks and ./boxes). Finally, we get the mouth ROIs from all video clips, following [EyeLipCropper](https://github.com/zhliuworks/EyeLipCropper). Similarly, you can also skip the complex steps below and directly use the features we extracted.
 
 # Training
 
