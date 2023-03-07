@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 ```
 
 # Dataset
-V2C-MovieAnimation is a multi-speaker dataset for animation movie dubbing. It is collected from 26 Disney cartoon movies and covers 153 diverse characters.
+[V2C-MovieAnimation](https://github.com/chenqi008/V2C) is a multi-speaker dataset for animation movie dubbing. It is collected from 26 Disney cartoon movies and covers 153 diverse characters.
 The link of raw data can be found from [here](https://pan.baidu.com/s/1wbmd4HnpDsLjTn0YbwwASA), password: eewv
 
 In our work, we release the [V2C-MovieAnimation2.0](https://pan.baidu.com/s/1wbmd4HnpDsLjTn0YbwwASA), password: ectr. To satisfy the requirement of dubbing the specified characters, we removed redundant character faces in movie frames.
