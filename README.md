@@ -20,7 +20,7 @@ In our work, we release the [V2C-MovieAnimation2.0](https://pan.baidu.com/s/1rfD
 
 # Data Preparation
 
-## For voice preprocessing (mel-spectrograms, pitch, and energy), we first use the  MFA to obtain the alignments between the duration and the phoneme sequences. Alternatively, you can skip the below-complicated step, and use our extracted features, directly.
+## For voice preprocessing (mel-spectrograms, pitch, and energy), Montreal Forced Aligner (MFA) is used to obtain the alignments between the utterances and the phoneme sequences. Alternatively, you can skip the below-complicated step, and use our extracted features, directly.
 
 ### Download the official [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/) (MFA) package and run
 ```
