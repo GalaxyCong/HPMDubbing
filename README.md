@@ -41,6 +41,10 @@ Train train.py file with
 ```
 python train.py -p config/MovieAnimation/preprocess.yaml -m config/MovieAnimation/model.yaml -t config/MovieAnimation/train.yaml -p2 config/MovieAnimation/preprocess.yaml
 ```
+or 
+```
+python train.py -p config/Chem/preprocess.yaml -m config/Chem/model.yaml -t config/Chem/train.yaml -p2 config/Chem/preprocess.yaml
+```
 
 # Inferrence
 ```
@@ -51,7 +55,11 @@ python Inference.py --restore_step [Chekpoint] -p config/MovieAnimation/preproce
 # Tensorboard
 Use
 ```
-tensorboard --logdir output/log/MovieAnimation
+tensorboard --logdir output/log/MovieAnimation --port=xxxx
+```
+or 
+```
+tensorboard --logdir output/log/Chem --port=xxxx
 ```
 to serve TensorBoard on your localhost.
 The loss curves, mcd curves, synthesized mel-spectrograms, and audios are shown.
