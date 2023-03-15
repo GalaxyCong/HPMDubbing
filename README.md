@@ -37,11 +37,11 @@ python Chem_preprocess.py config/MovieAnimation/preprocess.yaml
 
 # Training
 
-Train train.py file with
+For V2C-MovieAnimation dataset, please run train.py file with
 ```
 python train.py -p config/MovieAnimation/preprocess.yaml -m config/MovieAnimation/model.yaml -t config/MovieAnimation/train.yaml -p2 config/MovieAnimation/preprocess.yaml
 ```
-or 
+For Chem dataset, please run train.py file with
 ```
 python train.py -p config/Chem/preprocess.yaml -m config/Chem/model.yaml -t config/Chem/train.yaml -p2 config/Chem/preprocess.yaml
 ```
