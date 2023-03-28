@@ -16,7 +16,7 @@ The link of raw data can be found from [here](https://pan.baidu.com/s/1wbmd4HnpD
 
 In our work, we release the [V2C-MovieAnimation2.0](https://pan.baidu.com/s/1rfDE943ew4lpdi5P07KVWA), password: ectr. To satisfy the requirement of dubbing the specified characters, we removed redundant character faces in movie frames.
  (Please note that our video frames are sampled at 25 FPS by ffmpeg.)
-![Illustration](./V2C_2.0.jpeg)
+![Illustration](./images/Our_V2C2.0_Illustration.jpeg)
 
 # Data Preparation
 
