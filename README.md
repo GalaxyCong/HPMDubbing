@@ -1,6 +1,6 @@
 # HPMDubbing - PyTorch Implementation
 
-In our [paper](), we proposed Learning to Dub Movies via Hierarchical Prosody Models. We provide our implementation and pre-trained models as open-source in this repository. (Continue to upload, before the upload is finished, don't rush to run)
+In our [paper](), we proposed Learning to Dub Movies via Hierarchical Prosody Models. We provide our implementation and pre-trained models as open-source in this repository. (Continue to upload, before the upload is finished, don't rush to run 🌟)
 
 Visit our [demo website]() for dubbing samples.
 
