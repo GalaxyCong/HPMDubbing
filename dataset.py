@@ -80,8 +80,8 @@ class Dataset(Dataset):
             emotion_id = self.emotion_map[basename]
             emo_path = os.path.join(
                 self.preprocessed_path,
-                "spk2",
-                "{}-spk-{}.npy".format(speaker, basename),
+                "emos",
+                "{}-emo-{}.npy".format(speaker, basename),
             )
 
         elif self.dataset_name == "Chem":
