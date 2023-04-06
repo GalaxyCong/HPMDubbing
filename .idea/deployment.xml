@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="conggaoxiang@liliang3090.mivc.top:22" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="conggaoxiang@jump.mivc.top:8008">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/conggaoxiang/V2C/V2C_Code/HPM_Dubbing" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="conggaoxiang@liliang3090.mivc.top:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/conggaoxiang/V2C/V2C_Code/HPM_Dubbing" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
