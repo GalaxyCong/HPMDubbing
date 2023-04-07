@@ -60,6 +60,19 @@ python Chem_preprocess.py config/MovieAnimation/preprocess.yaml
 ```
 For hierarchical visual feature preprocessing (lip, face, and scenes), we detect and crop the face from the video frames using $S^3FD$ [face detection model](https://github.com/yxlijun/S3FD.pytorch). Then, we align faces to generate 68 landmarks and bounding boxes (./landmarks and ./boxes). Finally, we get the mouth ROIs from all video clips, following [EyeLipCropper](https://github.com/zhliuworks/EyeLipCropper). Similarly, you can also skip the complex steps below and directly use the features we extracted.
 
+We use the pre-trained weights of [emonet](https://github.com/face-analysis/emonet) to extract affective display features, and fine-tune Arousal and Valence (dimension256) according to the last layer of emonet network.
+```
+python V2C_emotion.py -c emonet_8.pth -o /data/conggaoxiang/V2C_feature/example_V2C_framelevel/MovieAnimation/VA_feature -i /data/conggaoxiang/detect_face 
+```
+The lip feature is extracted by [resnet18_mstcn_video](https://github.com/mpc001/Lipreading_using_Temporal_Convolutional_Networks), which inputs the grayscale mouth ROIs for each video.
+```
+python lip_main.py --modality video --config-path /data/conggaoxiang/lip/Lipreading_using_Temporal_Convolutional_Networks-master/configs/lrw_resnet18_mstcn.json --model-path /data/conggaoxiang/lip/Lipreading_using_Temporal_Convolutional_Networks-master/models/lrw_resnet18_mstcn_video.pth --data-dir /data/conggaoxiang/lip/Lipreading_using_Temporal_Convolutional_Networks-master/MOUTH_processing --annonation-direc /data/conggaoxiang/lip/LRW_dataset/lipread_mp4 --test
+```
+Finally, the scenes feature is provided by V2C-Net from [I3D model](https://github.com/piergiaj/pytorch-i3d).
+```
+python ./emotion_encoder/video_features/emotion_encoder.py
+```
+
 # Vocoder
 We provide the pre-trained model and implementation details of [HPMDubbing_Vocoder](https://github.com/GalaxyCong/HPMDubbing_Vocoder). Please download model and put the model into the `vocoder/HiFi_GAN_16/` or `/vocoder/HiFi_GAN_220/` folder.
 Before running, remember to check line 63 of `model.yaml` and change it to your own path. 
