@@ -12,18 +12,22 @@ ____________________________
 
 https://user-images.githubusercontent.com/109259667/230555695-d0a9f2bd-82f9-4448-b9be-3424b217cbfc.mp4
 
+📝Text: That defines our equilibrium.
 
 
 https://user-images.githubusercontent.com/109259667/230560457-5656856d-1a08-424d-9d2b-746a2615d1cf.mp4
 
+📝Text: Each gas will exert what's called a partial pressure.
 
 
 https://user-images.githubusercontent.com/109259667/230557290-c3fd3ed5-112e-49fa-bc5b-b5001caf6644.mp4
 
+📝Text: Yes. I'm the baby Jesus.
 
 
 https://user-images.githubusercontent.com/109259667/230558797-b08aaf0a-f27c-4a6d-9d95-a550c7145acf.mp4
 
+📝Text: This? No! Oh, no. This is just a temporary thing.
 
 
 Visit our [demo website]() or [download the dubbing samples]() to see more results.
