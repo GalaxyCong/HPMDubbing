@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 ```
 
 # Dataset
-
+## 1) For V2C
 [V2C-MovieAnimation](https://github.com/chenqi008/V2C) is a multi-speaker dataset for animation movie dubbing with identity and emotion annotations. It is collected from 26 Disney cartoon movies and covers 153 diverse characters. Due to the copyright, we can not directly provide the dataset, [see V2C issue](https://github.com/chenqi008/V2C/issues/1).
 
 In this work, we release the [V2C-MovieAnimation2.0]() to satisfy the requirement of dubbing the specified characters. 
@@ -47,7 +47,9 @@ You can download our preprocessed features directly through the link
 [GoogleDrive](https://drive.google.com/drive/folders/1AB-E682_OYhFSBz-y1t36A45e9l1ssRd?usp=share_link) or [BaiduDrive](https://pan.baidu.com/s/1ucVl116YcEBvlZopd9W5mw) (password: Good).
 ![Illustration](./images/Our_V2C2.0_Illustration.jpeg)
 
-For the chem dataset, we are very grateful to Ph.D. Hu and his team for providing us with this dataset. They segment the long videos into sentence-level clips according to the start and end timestamp of each sentence in the transcripts. If you need a citation, [please click their project link](https://tsinghua-mars-lab.github.io/NeuralDubber/), thanks!
+## 2) For Chem
+The Chem dataset is provided by [Neural Dubber](https://tsinghua-mars-lab.github.io/NeuralDubber/), which belongs to the single-speaker chemistry lecture dataset from [Lip2Wav](https://github.com/Rudrabha/Lip2Wav).
+<!-- 3) For the chem dataset, we are very grateful to Ph.D. Hu and his team for providing us with this dataset. They segment the long videos into sentence-level clips according to the start and end timestamp of each sentence in the transcripts. If you need a citation, [please click their project link](https://tsinghua-mars-lab.github.io/NeuralDubber/), thanks! -->
 
 # Data Preparation
 
