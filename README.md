@@ -47,6 +47,8 @@ You can download our preprocessed features directly through the link
 [GoogleDrive](https://drive.google.com/drive/folders/1AB-E682_OYhFSBz-y1t36A45e9l1ssRd?usp=share_link) or [BaiduDrive](https://pan.baidu.com/s/1ucVl116YcEBvlZopd9W5mw) (password: Good).
 ![Illustration](./images/Our_V2C2.0_Illustration.jpeg)
 
+For the chem dataset, we are very grateful to Ph.D. Hu and his team for providing us with this dataset. They segment the long videos into sentence-level clips according to the start and end timestamp of each sentence in the transcripts. If you need a citation, [please click their project link](https://tsinghua-mars-lab.github.io/NeuralDubber/), thanks!
+
 # Data Preparation
 
 For voice preprocessing (mel-spectrograms, pitch, and energy), Montreal Forced Aligner (MFA) is used to obtain the alignments between the utterances and the phoneme sequences. Alternatively, you can skip the below-complicated step, and use our extracted features, directly.
