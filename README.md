@@ -91,10 +91,12 @@ python ./emotion_encoder/video_features/emotion_encoder.py
 ```
 
 # Vocoder
-We provide the pre-trained model and implementation details of [HPMDubbing_Vocoder](https://github.com/GalaxyCong/HPMDubbing_Vocoder). Please download model and put the model into the `vocoder/HiFi_GAN_16/` or `/vocoder/HiFi_GAN_220/` folder.
+We provide the pre-trained model and implementation details of [HPMDubbing_Vocoder](https://github.com/GalaxyCong/HPMDubbing_Vocoder). Please download the vocoder of HPMDubbing and put it into the `vocoder/HiFi_GAN_16/` or `/vocoder/HiFi_GAN_220/` folder.
 Before running, remember to check line 63 of `model.yaml` and change it to your own path. 
 ```
 vocoder:
+  model: [HiFi_GAN_16] or [HiFi_GAN_220]
+  speaker: "LJSpeech" 
   vocoder_checkpoint_path: [Your path]
 ```
 
