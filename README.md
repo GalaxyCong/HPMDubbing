@@ -50,7 +50,7 @@ pip3 install -r requirements.txt
 ## 1) For V2C
 [V2C-MovieAnimation](https://github.com/chenqi008/V2C) is a multi-speaker dataset for animation movie dubbing with identity and emotion annotations. It is collected from 26 Disney cartoon movies and covers 153 diverse characters. Due to the copyright, we can not directly provide the dataset, [see V2C issue](https://github.com/chenqi008/V2C/issues/1).
 
-In this work, we release the [V2C-MovieAnimation2.0]() to satisfy the requirement of dubbing the specified characters. 
+In this work, we release the [V2C-MovieAnimation2.0](https://pan.baidu.com/s/151ljJuY72bkntxxgEIUTkQ) to satisfy the requirement of dubbing the specified characters. 
 Specifically, we removed redundant character faces in movie frames (please note that our video frames are sampled at 25 FPS by ffmpeg). 
 You can download our preprocessed features directly through the link 
 [GoogleDrive](https://drive.google.com/drive/folders/1AB-E682_OYhFSBz-y1t36A45e9l1ssRd?usp=share_link) or [BaiduDrive](https://pan.baidu.com/s/1ucVl116YcEBvlZopd9W5mw) (password: Good).
