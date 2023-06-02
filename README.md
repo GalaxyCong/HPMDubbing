@@ -139,4 +139,14 @@ The loss curves, mcd curves, synthesized mel-spectrograms, and audios are shown.
 - [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), Y. Ren, *et al*.
 
 # Citation
-If you find our work useful in your research, please consider citing:
+<!-- If you find our work useful in your research, please consider citing: -->
+If our research and this repository are helpful to your work, please cite with:
+```
+@inproceedings{cong2023learning,
+  title={Learning to Dub Movies via Hierarchical Prosody Models},
+  author={Cong, Gaoxiang and Li, Liang and Qi, Yuankai and Zha, Zheng-Jun and Wu, Qi and Wang, Wenyu and Jiang, Bin and Yang, Ming-Hsuan and Huang, Qingming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14687--14697},
+  year={2023}
+}
+```
