@@ -20,23 +20,48 @@ https://user-images.githubusercontent.com/109259667/230560457-5656856d-1a08-424d
 📝Text: Each gas will exert what's called a partial pressure.
 
 
-https://user-images.githubusercontent.com/109259667/230557290-c3fd3ed5-112e-49fa-bc5b-b5001caf6644.mp4
-
-📝Text: Yes. I'm the baby Jesus.
 
 
-https://user-images.githubusercontent.com/109259667/230558797-b08aaf0a-f27c-4a6d-9d95-a550c7145acf.mp4
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/256a0b38-144f-414f-9ccd-dd9956b77c07
 
-📝Text: This? No! Oh, no. This is just a temporary thing.
-
-
-
+📝Text: Yes. I'm the baby Jesus.   
+🎬Source: Bossbaby@BossBaby
 
 
-https://user-images.githubusercontent.com/109259667/232961804-d8f43c7e-869d-4a50-871e-69de29946d82.mp4
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/df301366-d757-44db-95f4-63b887b187a6
+
+📝Text: well, thank you.
+🎬Source: Ralph@Vanellope
 
 
-📝Text: It was an accident. She was scared.
+
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/ce10d2c1-39de-45f5-8244-a5a7f228f60a
+
+📝Text: hey, are you okay?
+🎬Source: TinkerII@Terence
+
+
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/d659555e-e8af-43ab-8877-db7da2a4f60c
+
+📝Text: a bear!
+🎬Source: Brave@Merida
+
+
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/3124a061-18e4-403a-bf16-c9c0a02b302d
+
+📝Text: i'm fishing!
+🎬Source: CloudyII@Flint
+
+
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/236f3ed1-cc6e-450f-afb6-35d2a1005d1a
+
+📝Text: a bow, fergus? she's a lady.
+🎬Source: Brave@Elinor
+
 
 Visit our [demo website]() or download the generated samples by HPMDubbing model (🔊[result on Chem](https://drive.google.com/drive/folders/1C3YUngeH0ENqr9erRM2iOFnjr7VN9tPc?usp=share_link) and 🔊[result on V2C](https://drive.google.com/drive/folders/1-lbx9xH0hTpV4ngdyxJOrvtOyPMVBG_e?usp=share_link)) to see more results.
 
