@@ -82,8 +82,10 @@ You can download our preprocessed features directly through the link
 ![Illustration](./images/Our_V2C2.0_Illustration.jpeg)
 
 ## 2) For Chem
-The Chem dataset is provided by [Neural Dubber](https://tsinghua-mars-lab.github.io/NeuralDubber/), which belongs to the single-speaker chemistry lecture dataset from [Lip2Wav](https://github.com/Rudrabha/Lip2Wav).
-<!-- 3) For the chem dataset, we are very grateful to Ph.D. Hu and his team for providing us with this dataset. They segment the long videos into sentence-level clips according to the start and end timestamp of each sentence in the transcripts. If you need a citation, [please click their project link](https://tsinghua-mars-lab.github.io/NeuralDubber/), thanks! -->
+The Chem dataset is provided by [Neural Dubber](https://tsinghua-mars-lab.github.io/NeuralDubber/), which belongs to the single-speaker chemistry lecture dataset from [Lip2Wav](https://github.com/Rudrabha/Lip2Wav). 
+
+In this work, we provide our feature of the Chem dataset, you can download it ([BaiduDrive](https://pan.baidu.com/s/13hYDfTHvjuz8qEk6Gn0lRA) (password: chem) / Google). Besides, to ensure the speech content is guided by the video information like lip movement, in our preprocess, we found some clips that solely contained PowerPoint slides without the presence of an instructor's face, so we removed them further. 
+
 
 # Data Preparation
 
