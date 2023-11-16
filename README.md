@@ -180,7 +180,26 @@ to serve TensorBoard on your localhost.
 The loss curves, mcd curves, synthesized mel-spectrograms, and audios are shown.
 
 
-# References
+# Some Q&A
+
+Q&A: Why is the Synchronization_coefficient set 4, can I change it using another positive integer? 
+     Follow the Formula: n = \frac{T_{mel}}{T_v}=\frac{sr/hs}{FPS} \in \mathbb{N}^{+}.
+     e.g., in our paper, for chem dataset, we set the sr == 16000Hz, hs == 160, win == 640, FPS == 25, so n is 4.
+                        for chem dataset, we set the sr == 22050Hz, hs == 220, win == 880, FPS == 25, so n is 4.009. (This is the meaning of the approximately equal sign in the article). 
+
+Q&A: Why the use the different sr for two datasets?
+     Because, we need to keep the same the expriment setting with original paper. 
+     Specifically, for Chem dataset ===> [NeuralDubber](https://tsinghua-mars-lab.github.io/NeuralDubber/) used the 16000Hz in their expriment. 
+     for V2C dataset (chenqi et.al) ====> [V2C-Net](https://github.com/chenqi008/V2C) used the 22050Hz as their result. 
+     Next step, we have a plan to provide the V2C dataset (16kHz, 24KHz) Version, or Chem dataset (22050Hz, 24KHz) version.
+
+Q&A: Why did you provide two specialized Vocoders? Can I use the official HiFiGAN pre-trained model to replace them?
+     In official HiFiGAN, sr is 22050Hz, hop_size is 256, win_size is 1024. 
+     So undering this setting, we suggest to use our Vocoder to satify above Formula. 
+     We have released our pre-train model (HPM_Chem, HPM_V2C), you can download [it](https://github.com/GalaxyCong/HPMDubbing_Vocoder). 
+.....
+
+# Acknowledgement
 - [V2C: Visual Voice Cloning](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_V2C_Visual_Voice_Cloning_CVPR_2022_paper.pdf), Q. Chen, *et al*.
 - [Neural Dubber: Dubbing for Videos According to Scripts](https://proceedings.neurips.cc/paper/2021/file/8a9c8ac001d3ef9e4ce39b1177295e03-Paper.pdf), C. Hu, *et al*.
 - [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558), Y. Ren, *et al*.
