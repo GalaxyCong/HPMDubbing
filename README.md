@@ -5,7 +5,7 @@ In this [paper](), we propose a novel movie dubbing architecture via hierarchica
 **Recent Updates**
 --------
 [11/11/2023]
-Uploading the feature of Chem datasets (chemistry lecture dataset), the sample rating is 160000Hz. 
+Uploading the feature of chemistry lecture (Chem) dataset, the sample rating is 160000Hz. 
 
 [18/11/2023]
 Uploading pre-trained model and complementing missing details to ensure inference successfully. 
