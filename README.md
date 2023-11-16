@@ -10,6 +10,9 @@ Uploading the feature of chemistry lecture (Chem) dataset, the sample rating is 
 [18/11/2023]
 Uploading pre-trained model and complementing missing details to ensure inference successfully. 
 
+[25/11/2023]
+[An explanation about the challenge with the V2C-Animation dataset](https://github.com/GalaxyCong/More-Details-about-the-V2C-Animation-dataset.). 
+
 
 [//]: # (We provide our implementation and pre-trained models as open-source in this repository. )
 
