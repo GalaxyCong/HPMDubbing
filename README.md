@@ -158,7 +158,7 @@ In this work, we will provide pre-trained models (including parameters of networ
 
 | Dubbing Dataset                  | Pre-trained model                                                                                           | Vocoder                                                                  | Training log                                                                 |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| Chem (chemistry lecture dataset) | Download: GoogleDrive or [BaiduDrive](https://pan.baidu.com/s/1RgNav9b65Rz2iy-JBPxFnw) (password: q44c)     | 16KHz [More Details](https://github.com/GalaxyCong/HPMDubbing_Vocoder)   | [Download](https://pan.baidu.com/s/1Vgw9vxoGj9TDDyyZBrk6kw) (831c)           |
+| Chem (chemistry lecture dataset) | Download: [GoogleDrive](https://drive.google.com/file/d/1YCH2orTDmoKnTG8a5aaMQRv_QLjVTv-_/view?usp=drive_link) or [BaiduDrive](https://pan.baidu.com/s/1RgNav9b65Rz2iy-JBPxFnw) (password: q44c)     | 16KHz [More Details](https://github.com/GalaxyCong/HPMDubbing_Vocoder)   | [Download](https://pan.baidu.com/s/1Vgw9vxoGj9TDDyyZBrk6kw) (831c)           |
 | V2C (V2C-Animation Dataset)      | Download: GoogleDrive or BaiduDrive (password: )                                                            | 22KHz [More Details](https://github.com/GalaxyCong/HPMDubbing_Vocoder)   | Download                                                                     |
 
 
