@@ -41,19 +41,17 @@ ____________________________
 🌟 Here, we also provide the resulting demo by [V2C-Net](https://github.com/chenqi008/V2C) for comparison. This result is reproduced by the official code of V2C-Net correctly. 
 
 
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/48801714-43e9-44f2-bb6a-0e088ab01e0b
+
+
 📝Text: hey, are you okay?   
 
 🎬Source: TinkerII@Terence
 
 
-📝Text: well, thank you.   
 
-🎬Source: Ralph@Vanellope
-
-
-📝Text: Yes. I'm the baby Jesus.   
-
-🎬Source: Bossbaby@BossBaby
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/b888e15d-1a5a-4222-aff4-34b5c8b5eac6
 
 
 📝Text: i'm fishing!   
@@ -61,6 +59,23 @@ ____________________________
 🎬Source: CloudyII@Flint
 
 
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/51e1fe35-54fd-4e7f-af3b-a5cb2b2461be
+
+
+📝Text: well, thank you.   
+
+🎬Source: Ralph@Vanellope
+
+
+
+
+https://github.com/GalaxyCong/HPMDubbing/assets/109259667/fe1ae0fd-7e59-4644-90d7-6b89e91dd285
+
+
+📝Text: Yes. I'm the baby Jesus.   
+
+🎬Source: Bossbaby@BossBaby
 
 
 
