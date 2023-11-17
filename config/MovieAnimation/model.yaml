@@ -1,0 +1,79 @@
+transformer:
+  encoder_layer: 5
+  encoder_head: 2
+  encoder_hidden: 256
+  decoder_layer: 7
+  decoder_head: 2
+  decoder_hidden: 256
+  conv_filter_size: 1024
+  conv_kernel_size: [9, 1]
+  encoder_dropout: 0.2
+  decoder_dropout: 0.2
+  pre_net_bottleneck: True
+
+Lip_transformer:
+  encoder_layer: 4
+  encoder_head: 4
+  encoder_hidden: 512
+  decoder_hidden: 512
+  conv_filter_size: 1024
+  conv_kernel_size: [9, 1]
+  encoder_dropout: 0.2
+
+loss_function:
+  model: "V2C"
+
+classifier:  
+  cls_hidden: []
+  
+upsample_ConvTranspose:
+  resblock: 1
+  upsample_rates: [2, 2] # [8,5,2,2]
+  upsample_kernel_sizes: [4, 4] # [16,10,4,4]
+  upsample_initial_channel: 256
+  resblock_kernel_sizes: [ 3,7,11 ]
+  resblock_dilation_sizes: [ [ 1,3,5 ], [ 1,3,5 ], [ 1,3,5 ] ]
+
+variance_predictor:
+  filter_size: 256
+  kernel_size: 3
+  dropout: 0.5
+  predictor: False
+
+variance_embedding:
+  pitch_quantization: "linear" # support 'linear' or 'log', 'log' is allowed only if the pitch values are not normalized during preprocessing
+  energy_quantization: "linear" # support 'linear' or 'log', 'log' is allowed only if the energy values are not normalized during preprocessing
+  n_bins: 256
+
+Enhancement:
+  Content_enhancement: True
+  Identity_enhancement: True
+
+multi_speaker: True
+with_emotion: True
+
+Symbols:
+  phonemenumber: 87
+
+learn_speaker: False # whether use Embedding layer to learn speaker embedding
+learn_emotion: False # whether use Embedding layer to learn emotion embedding
+
+max_seq_len: 1000
+
+vocoder:
+  model: "HiFi_GAN_220" # support 'HiFi-GAN', 'MelGAN', 'HiFi_GAN_16', "ISTFTNET", "HiFi_GAN_220"
+  speaker: "LJSpeech_16KHz" # support  'LJSpeech', 'universal', 'LJSpeech_16KHz'
+  vocoder_checkpoint_path: "./vocoder/HiFi_GAN_220"
+
+Multi_head_Duration_Aligner:
+  Multi-Head_Attention: Ture
+  Expand_with_Conv-Transpose: Ture
+  Fusion_in_advance: False
+  ResNet_multi-scales: False
+
+Affective_Prosody_Adaptor:
+  Embedding_Augmentation_in_pitch: Ture
+  Embedding_Augmentation_in_energy: Ture
+  Add_energy_valence: Ture  # Add or Concat
+  cascade: Ture
+  Use_Scale_attention: False
