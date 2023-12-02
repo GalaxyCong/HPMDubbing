@@ -14,9 +14,9 @@ Uploading pre-trained model and complementing missing details to ensure inferenc
 [An explanation about the challenge with the V2C-Animation dataset](https://github.com/GalaxyCong/More-Details-about-the-V2C-Animation-dataset.). 
 
 [3/12/2023]
-We share the image areas of the mouth and face we extracted for readers to use conveniently. 
+We plan to share the image areas of the mouth and face we extracted for readers to use conveniently. 
 
-| Dataset | Frames (25 FPS) ➡️ | Face image ➡️ | Mouth  image |
+| Dataset | Frames (25 FPS)   | Face image   | Mouth  image |
 |---------|-------------------|--------------|--------------|
 | Chem    | Download          | [Download](https://pan.baidu.com/s/1w2b_KMf_EztgyE0gGAf3qg) code: face   | Download     |
 | V2C     | Download          | Download     | Download     |
