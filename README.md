@@ -13,6 +13,12 @@ Uploading pre-trained model and complementing missing details to ensure inferenc
 [25/11/2023]
 [An explanation about the challenge with the V2C-Animation dataset](https://github.com/GalaxyCong/More-Details-about-the-V2C-Animation-dataset.). 
 
+[3/12/2023]
+We share the image areas of the mouth and face we extracted for readers to use conveniently. 
+
+[10/12/2023]
+Uploading more details about the data preprocess and script codes.
+
 ____________________________
 🌟 Below is the generated result of our method on Chem dataset: 
 
