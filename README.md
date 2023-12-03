@@ -19,8 +19,9 @@ We plan to share the image areas of the mouth and face we extracted for readers 
 | Dataset | Frames (25 FPS)   | Face image   | Mouth  image |
 |---------|-------------------|--------------|--------------|
 | Chem    | [BaiduDrive](https://pan.baidu.com/s/1sTuJCvzDFNAkALXrX4pYtA) (fram)          | [GoogleDrive](https://drive.google.com/drive/folders/16KI32oRMZ3_ft1SiqpJyPmOeJFL20m7c?usp=drive_link), [BaiduDrive](https://pan.baidu.com/s/12NUguAYawXfKkcnCL4x3Bg) (face)   | [GoogleDrive](https://drive.google.com/drive/folders/1d9rQjM7L7sfmTorrgnsNHe6Z1qiYT4yz?usp=drive_link), [BaiduDrive](https://pan.baidu.com/s/1hb17aeVh34InpRiuvQO7sQ) (mout)     |
-| V2C 2.0     | Download          | [BaiduDrive](https://pan.baidu.com/s/1MCFbghFOybm1ENVcAh4x8g) (Ours)     | [BaiduDrive](https://pan.baidu.com/s/1MCFbghFOybm1ENVcAh4x8g) (Ours) |
+| V2C 2.0     | Download*          | [BaiduDrive](https://pan.baidu.com/s/1MCFbghFOybm1ENVcAh4x8g) (Ours)     | [BaiduDrive](https://pan.baidu.com/s/1MCFbghFOybm1ENVcAh4x8g) (Ours) |
 
+Due to copyright issues, each frame of V2C will not be made public for now.
 
 [10/12/2023]
 Uploading more details about the data preprocess and script codes.
