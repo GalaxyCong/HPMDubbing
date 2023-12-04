@@ -113,7 +113,7 @@ You can download our preprocessed features directly through the link
 ## 2) For Chem
 The Chem dataset is provided by [Neural Dubber](https://tsinghua-mars-lab.github.io/NeuralDubber/), which belongs to the single-speaker chemistry lecture dataset from [Lip2Wav](https://github.com/Rudrabha/Lip2Wav). 
 
-In this work, we provide our feature of the Chem dataset, you can download it [BaiduDrive](https://pan.baidu.com/s/13hYDfTHvjuz8qEk6Gn0lRA) (password: chem) / Google. To ensure the speech content is guided by the video information like lip movement, in our preprocess, we found some clips that solely contained PowerPoint slides without the presence of an instructor's face, so we removed them further. 
+In this work, we provide our feature of the Chem dataset, you can download it [BaiduDrive](https://pan.baidu.com/s/1Ml4zwxVIbQGR7yUYpXMGpw) (password: chem) / Google. To ensure the speech content is guided by the video information like lip movement, in our preprocess, we found some clips that solely contained PowerPoint slides without the presence of an instructor's face, so we removed them further. 
 Please note that a [16kHz vocoder](https://github.com/GalaxyCong/HPMDubbing_Vocoder) is used to generate waveforms for Chem.
 <img width="1272" alt="image" src="https://github.com/GalaxyCong/HPMDubbing/assets/109259667/b04355a8-e0a2-4c52-bdb2-05a9beea9f38">
 
