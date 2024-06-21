@@ -16,6 +16,14 @@ Uploading pre-trained model and complementing missing details to ensure inferenc
 [3/12/2023]
 We plan to share the image areas of the mouth and face we extracted for readers to use conveniently. 
 
+
+Before [8/7/2023]
+Release the GRID dataset (extracted feature and split list for train and test). 
+
+Before [15/7/2023]
+Publish the source codes and model of [StyleDubber](https://github.com/GalaxyCong/StyleDubber).  
+
+
 | Dataset | Frames (25 FPS)   | Face image   | Mouth  image |
 |---------|-------------------|--------------|--------------|
 | Chem    | [BaiduDrive](https://pan.baidu.com/s/1sTuJCvzDFNAkALXrX4pYtA) (fram)          | [GoogleDrive](https://drive.google.com/drive/folders/16KI32oRMZ3_ft1SiqpJyPmOeJFL20m7c?usp=drive_link), [BaiduDrive](https://pan.baidu.com/s/12NUguAYawXfKkcnCL4x3Bg) (face)   | [GoogleDrive](https://drive.google.com/drive/folders/1d9rQjM7L7sfmTorrgnsNHe6Z1qiYT4yz?usp=drive_link), [BaiduDrive](https://pan.baidu.com/s/1hb17aeVh34InpRiuvQO7sQ) (mout)     |
