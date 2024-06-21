@@ -17,11 +17,6 @@ Uploading pre-trained model and complementing missing details to ensure inferenc
 We plan to share the image areas of the mouth and face we extracted for readers to use conveniently. 
 
 
-Before [8/7/2023]
-Release the GRID dataset (extracted feature and split list for train and test). 
-
-Before [15/7/2023]
-Publish the source codes and model of [StyleDubber](https://github.com/GalaxyCong/StyleDubber).  
 
 
 | Dataset | Frames (25 FPS)   | Face image   | Mouth  image |
@@ -33,6 +28,13 @@ I'm sorry due to the [copyright issues](https://github.com/chenqi008/V2C/issues/
 
 [10/12/2023]
 Uploading [more details](https://github.com/GalaxyCong/HPMDubbing-how-to-get-face-and-lip-) about the data preprocess and script codes.
+
+
+Before [8/7/2023]
+Release the GRID dataset (extracted feature and split list for train and test). 
+
+Before [15/7/2023]
+Publish the source codes and model of [StyleDubber](https://github.com/GalaxyCong/StyleDubber).  
 
 ____________________________
 🌟 Below is the generated result of our method on Chem dataset: 
